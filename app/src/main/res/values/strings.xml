@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">BenX</string>
+    <string name="user_name">Email Address</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="forgot_password">Forgot Password</string>
 </resources>

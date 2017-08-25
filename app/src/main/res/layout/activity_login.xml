@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="datafactory.co.za.benx.LoginActivity"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="420dp"
+        android:layout_height="280dp"
+        app:srcCompat="@drawable/benx_logo"
+        android:layout_marginTop="44dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/text_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/user_name"
+        android:layout_marginTop="38dp"
+        android:layout_below="@+id/imageView"
+        android:layout_alignRight="@+id/imageView"
+        android:layout_alignEnd="@+id/imageView"
+        android:layout_alignLeft="@+id/imageView"
+        android:layout_alignStart="@+id/imageView" />
+
+    <EditText
+        android:id="@+id/text_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/text_username"
+        android:layout_alignStart="@+id/text_username"
+        android:layout_below="@+id/text_username"
+        android:layout_marginTop="38dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="@string/password"
+        android:layout_alignRight="@+id/text_username"
+        android:layout_alignEnd="@+id/text_username" />
+
+    <Button
+        android:id="@+id/btn_login"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/text_password"
+        android:layout_alignStart="@+id/text_password"
+        android:layout_below="@+id/text_password"
+        android:layout_marginTop="46dp"
+        android:onClick="onButtonClick"
+        android:text="@string/login"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn_forgot_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/text_password"
+        android:layout_alignRight="@+id/text_password"
+        android:layout_alignTop="@+id/btn_login"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="119dp"
+        android:textSize="20sp"
+        android:text="@string/forgot_password" />
+
+
+</RelativeLayout>

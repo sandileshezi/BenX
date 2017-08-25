@@ -1,10 +1,13 @@
 package datafactory.co.za.benx;
 
-import android.support.v7.app.AppCompatActivity;
+import android.app.Activity;
 import android.os.Bundle;
 
-public class MainActivity extends AppCompatActivity {
+/**
+ * Created by sandile.shezi on 2017/08/25.
+ */
 
+public class MainActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
