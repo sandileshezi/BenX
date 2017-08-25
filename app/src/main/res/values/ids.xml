@@ -4,4 +4,10 @@
     <item type="id" name="text_password"/>
     <item type="id" name="btn_login"/>
     <item type="id" name="btn_forgot_password"/>
+    <item type="id" name="btn_contacts"/>
+    <item type="id" name="btn_logout"/>
+    <item type="id" name="btn_search"/>
+    <item type="id" name="btn_history"/>
+    <item type="id" name="btn_reports"/>
+    <item type="id" name="btn_other"/>
 </resources>

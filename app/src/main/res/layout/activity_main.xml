@@ -1,13 +1,88 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:textSize="40sp"
-        android:text="Welcome" />
-</LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@id/btn_contacts"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="47dp"
+            android:layout_marginStart="47dp"
+            android:layout_marginTop="68dp"
+            android:text="@string/contacts"
+            android:textSize="30sp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            android:id="@+id/btn_login"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="44dp"
+            android:layout_marginRight="44dp"
+            android:text="@string/logout"
+            android:textSize="30sp"
+            android:layout_above="@+id/btn_search"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <Button
+            android:id="@+id/btn_search"
+            android:layout_width="@dimen/menu_layout_width"
+            android:layout_height="wrap_content"
+            android:text="@string/search"
+            android:textSize="@dimen/menu_buttons_text_size"
+            android:layout_below="@+id/btn_contacts"
+            android:layout_marginTop="@dimen/menu_buttons_layout_margin_top"
+            android:layout_alignLeft="@+id/btn_contacts"
+            android:layout_alignStart="@+id/btn_contacts"
+            android:gravity="left|center_vertical"/>
+
+        <Button
+            android:id="@+id/btn_history"
+            android:layout_width="@dimen/menu_layout_width"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/btn_search"
+            android:layout_alignStart="@+id/btn_search"
+            android:layout_centerVertical="true"
+            android:layout_below="@+id/btn_search"
+            android:text="@string/history"
+            android:textSize="@dimen/menu_buttons_text_size"
+            android:gravity="left|center_vertical"
+            android:layout_marginTop="@dimen/menu_buttons_layout_margin_top"/>
+
+        <Button
+            android:id="@+id/btn_reports"
+            android:layout_width="@dimen/menu_layout_width"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/btn_history"
+            android:layout_alignStart="@+id/btn_history"
+            android:layout_below="@+id/btn_history"
+            android:text="@string/reports"
+            android:textSize="@dimen/menu_buttons_text_size"
+            android:gravity="left|center_vertical"
+            android:layout_marginTop="@dimen/menu_buttons_layout_margin_top"/>
+
+        <Button
+            android:id="@+id/btn_other"
+            android:layout_width="@dimen/menu_layout_width"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/btn_reports"
+            android:layout_alignStart="@+id/btn_reports"
+            android:layout_below="@+id/btn_reports"
+            android:layout_marginTop="@dimen/menu_buttons_layout_margin_top"
+            android:text="@string/other"
+            android:textSize="@dimen/menu_buttons_text_size"
+            android:gravity="left|center_vertical"/>
+
+    </RelativeLayout>
+
+</ScrollView>
