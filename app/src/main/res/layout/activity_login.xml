@@ -28,7 +28,8 @@
         android:layout_alignRight="@+id/imageView"
         android:layout_alignEnd="@+id/imageView"
         android:layout_alignLeft="@+id/imageView"
-        android:layout_alignStart="@+id/imageView" />
+        android:layout_alignStart="@+id/imageView"
+        android:textSize="@dimen/edit_text_size"/>
 
     <EditText
         android:id="@+id/text_password"
@@ -42,7 +43,8 @@
         android:inputType="textPassword"
         android:hint="@string/password"
         android:layout_alignRight="@+id/text_username"
-        android:layout_alignEnd="@+id/text_username" />
+        android:layout_alignEnd="@+id/text_username"
+        android:textSize="@dimen/edit_text_size"/>
 
     <Button
         android:id="@+id/btn_login"
@@ -55,7 +57,7 @@
         android:layout_marginTop="46dp"
         android:onClick="onButtonClick"
         android:text="@string/login"
-        android:textSize="20sp" />
+        android:textSize="25sp" />
 
     <Button
         android:id="@+id/btn_forgot_password"
@@ -66,7 +68,7 @@
         android:layout_alignTop="@+id/btn_login"
         android:layout_marginEnd="5dp"
         android:layout_marginRight="119dp"
-        android:textSize="20sp"
+        android:textSize="25sp"
         android:text="@string/forgot_password" />
 
 

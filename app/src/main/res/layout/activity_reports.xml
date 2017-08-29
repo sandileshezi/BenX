@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@id/btn_contacts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="@dimen/layout_margin_left_start"
+        android:layout_marginStart="@dimen/layout_margin_left_start"
+        android:layout_marginTop="@dimen/layout_margin_top"
+        android:textSize="@dimen/layout_contact_logout_text_size"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:text="@string/contacts" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/layout_header_text_margin_top"
+        android:text="@string/reports"
+        android:textSize="@dimen/layout_header_text_size"/>
+
+    <Button
+        android:id="@id/btn_logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@id/btn_contacts"
+        android:layout_marginEnd="44dp"
+        android:layout_marginRight="44dp"
+        android:textSize="@dimen/layout_contact_logout_text_size"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:text="@string/logout" />
+
+    <Button
+        android:id="@id/btn_day_activity"
+        android:layout_width="@dimen/menu_layout_long_button_width"
+        android:layout_height="@dimen/menu_layout_long_button_height"
+        android:layout_alignLeft="@+id/btn_contacts"
+        android:layout_alignStart="@+id/btn_contacts"
+        android:layout_below="@+id/btn_contacts"
+        android:layout_marginTop="@dimen/menu_buttons_layout_margin_top"
+        android:text="@string/day_activity"
+        android:gravity="left|center_vertical"
+        android:textSize="@dimen/menu_buttons_long_text_size" />
+
+    <Button
+        android:id="@id/btn_period_activity"
+        android:layout_width="@dimen/menu_layout_long_button_width"
+        android:layout_height="@dimen/menu_layout_long_button_height"
+        android:layout_alignLeft="@+id/btn_day_activity"
+        android:layout_alignStart="@+id/btn_day_activity"
+        android:layout_below="@+id/btn_day_activity"
+        android:textSize="@dimen/menu_buttons_long_text_size"
+        android:gravity="left|center_vertical"
+        android:layout_marginTop="@dimen/menu_buttons_layout_margin_top"
+        android:text="@string/period_activity" />
+
+    <Button
+        android:id="@id/btn_location_activity"
+        android:layout_width="@dimen/menu_layout_long_button_width"
+        android:layout_height="@dimen/menu_layout_long_button_height"
+        android:layout_alignLeft="@+id/btn_period_activity"
+        android:layout_alignStart="@+id/btn_period_activity"
+        android:layout_below="@+id/btn_period_activity"
+        android:text="@string/location_activity"
+        android:textSize="@dimen/menu_buttons_long_text_size"
+        android:gravity="left|center_vertical"
+        android:layout_marginTop="@dimen/menu_buttons_layout_margin_top"/>
+
+</RelativeLayout>

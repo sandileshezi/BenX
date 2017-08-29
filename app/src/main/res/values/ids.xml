@@ -10,4 +10,37 @@
     <item type="id" name="btn_history"/>
     <item type="id" name="btn_reports"/>
     <item type="id" name="btn_other"/>
+    <item type="id" name="btn_own"/>
+    <item type="id" name="btn_third_party"/>
+    <item type="id" name="btn_day_activity"/>
+    <item type="id" name="btn_period_activity"/>
+    <item type="id" name="btn_location_activity"/>
+    <item type="id" name="btn_surname"/>
+    <item type="id" name="btn_id_number"/>
+    <item type="id" name="txt_first_name"/>
+    <item type="id" name="lbl_first_name"/>
+    <item type="id" name="txt_last_name"/>
+    <item type="id" name="lbl_last_name"/>
+    <item type="id" name="cmb_dob"/>
+    <item type="id" name="lbl_dob"/>
+    <item type="id" name="lbl_id_number"/>
+    <item type="id" name="txt_id_number"/>
+    <item type="id" name="lbl_email"/>
+    <item type="id" name="txt_email"/>
+    <item type="id" name="lbl_gender"/>
+    <item type="id" name="txt_gender"/>
+    <item type="id" name="lbl_maiden_name"/>
+    <item type="id" name="txt_maiden_name"/>
+    <item type="id" name="lbl_ensure_number_provided"/>
+    <item type="id" name="lbl_home_number"/>
+    <item type="id" name="lbl_work_number"/>
+    <item type="id" name="lbl_cell_number"/>
+    <item type="id" name="txt_cell_number"/>
+    <item type="id" name="txt_home_number"/>
+    <item type="id" name="txt_work_number"/>
+    <item type="id" name="txt_country"/>
+    <item type="id" name="lbl_country"/>
+    <item type="id" name="lbl_where_about_us"/>
+    <item type="id" name="txt_where_about_us"/>
+    <item type="id" name="btn_submit"/>
 </resources>

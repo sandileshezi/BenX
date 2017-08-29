@@ -17,6 +17,10 @@
             </intent-filter>
         </activity>
         <activity android:name=".MainActivity"></activity>
+        <activity android:name=".SearchActivity" android:parentActivityName=".MainActivity"></activity>
+        <activity android:name=".ReportsActivity" android:parentActivityName=".MainActivity"></activity>
+        <activity android:name=".HistoryActivity" android:parentActivityName=".MainActivity"></activity>
+        <activity android:name=".RegisterActivity" android:parentActivityName=".SearchActivity"></activity>
     </application>
 
 </manifest>

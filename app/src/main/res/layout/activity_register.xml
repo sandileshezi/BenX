@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/layout_margin_top_bottom"
+            android:text="@string/register_now"
+            android:textSize="@dimen/layout_header_text_size"/>
+
+        <TextView
+            android:id="@id/lbl_first_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/layout_margin_left_start"
+            android:layout_marginStart="@dimen/layout_margin_left_start"
+            android:layout_marginTop="@dimen/text_view_margin_top"
+            android:text="@string/first_name"
+            android:textSize="@dimen/text_view_size"/>
+
+        <EditText
+            android:id="@id/txt_first_name"
+            android:layout_width="@dimen/layout_edit_text_width"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/layout_margin_left_start"
+            android:layout_marginStart="@dimen/layout_margin_left_start"
+            android:layout_alignTop="@+id/lbl_first_name"
+            android:layout_marginTop="@dimen/edit_view_margin_top"
+            android:textSize="@dimen/edit_text_size"/>
+
+        <TextView
+            android:id="@id/lbl_last_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/layout_margin_left_start"
+            android:layout_marginStart="@dimen/layout_margin_left_start"
+            android:layout_alignTop="@+id/txt_first_name"
+            android:layout_marginTop="@dimen/text_view_margin_top"
+            android:text="@string/last_name"
+            android:textSize="@dimen/text_view_size"/>
+
+        <EditText
+            android:id="@id/txt_last_name"
+            android:layout_width="@dimen/layout_edit_text_width"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/layout_margin_left_start"
+            android:layout_marginStart="@dimen/layout_margin_left_start"
+            android:layout_alignTop="@+id/lbl_last_name"
+            android:layout_marginTop="@dimen/edit_view_margin_top"
+            android:textSize="@dimen/edit_text_size"/>
+
+        <TextView
+            android:id="@id/lbl_dob"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/layout_margin_left_start"
+            android:layout_marginStart="@dimen/layout_margin_left_start"
+            android:layout_alignTop="@+id/txt_last_name"
+            android:layout_marginTop="@dimen/text_view_margin_top"
+            android:text="@string/date_of_birth"
+            android:textSize="@dimen/text_view_size"/>
+
+        <EditText
+            android:id="@id/cmb_dob"
+            android:layout_width="@dimen/layout_edit_text_width"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/layout_margin_left_start"
+            android:layout_marginStart="@dimen/layout_margin_left_start"
+            android:layout_alignTop="@+id/lbl_dob"
+            android:layout_marginTop="@dimen/edit_view_margin_top"
+            android:clickable="true"
+            android:inputType="date"
+            android:textSize="@dimen/edit_text_size"/>
+
+        <TextView
+            android:id="@id/lbl_id_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/layout_margin_left_start"
+            android:layout_marginStart="@dimen/layout_margin_left_start"
+            android:layout_alignTop="@+id/cmb_dob"
+            android:layout_marginTop="@dimen/text_view_margin_top"
+            android:text="@string/id_number"
+            android:textSize="@dimen/text_view_size" />
+
+        <EditText
+            android:id="@id/txt_id_number"
+            android:layout_width="@dimen/layout_edit_text_width"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/layout_margin_left_start"
+            android:layout_marginStart="@dimen/layout_margin_left_start"
+            android:layout_alignTop="@+id/lbl_id_number"
+            android:layout_marginTop="@dimen/edit_view_margin_top"
+            android:inputType="number"
+            android:textSize="@dimen/edit_text_size"/>
+
+        <TextView
+            android:id="@id/lbl_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/layout_margin_left_start"
+            android:layout_marginStart="@dimen/layout_margin_left_start"
+            android:layout_alignTop="@+id/txt_id_number"
+            android:layout_marginTop="@dimen/text_view_margin_top"
+            android:text="@string/your_email"
+            android:textSize="@dimen/text_view_size"/>
+
+        <EditText
+            android:id="@id/txt_email"
+            android:layout_width="@dimen/layout_edit_text_width"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/layout_margin_left_start"
+            android:layout_marginStart="@dimen/layout_margin_left_start"
+            android:layout_alignTop="@+id/lbl_email"
+            android:layout_marginTop="@dimen/edit_view_margin_top"
+            android:textSize="@dimen/edit_text_size"/>
+
+        <TextView
+            android:id="@id/lbl_gender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/layout_margin_left_start"
+            android:layout_marginStart="@dimen/layout_margin_left_start"
+            android:layout_alignTop="@+id/txt_email"
+            android:layout_marginTop="@dimen/text_view_margin_top"
+            android:text="@string/your_gender"
+            android:textSize="@dimen/text_view_size"/>
+
+        <EditText
+            android:id="@id/txt_gender"
+            android:layout_width="@dimen/layout_edit_text_width"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/layout_margin_left_start"
+            android:layout_marginStart="@dimen/layout_margin_left_start"
+            android:layout_alignTop="@+id/lbl_gender"
+            android:layout_marginTop="@dimen/edit_view_margin_top"
+            android:textSize="@dimen/edit_text_size"/>
+
+        <TextView
+            android:id="@id/lbl_maiden_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/layout_margin_left_start"
+            android:layout_marginStart="@dimen/layout_margin_left_start"
+            android:layout_alignTop="@+id/txt_gender"
+            android:layout_marginTop="@dimen/text_view_margin_top"
+            android:text="@string/your_maiden_name"
+            android:textSize="@dimen/text_view_size"/>
+
+        <EditText
+            android:id="@id/txt_maiden_name"
+            android:layout_width="@dimen/layout_edit_text_width"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/layout_margin_left_start"
+            android:layout_marginStart="@dimen/layout_margin_left_start"
+            android:layout_alignTop="@+id/lbl_maiden_name"
+            android:layout_marginTop="@dimen/edit_view_margin_top"
+            android:textSize="@dimen/edit_text_size"/>
+
+        <TextView
+            android:id="@id/lbl_ensure_number_provided"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/layout_margin_left_start"
+            android:layout_marginStart="@dimen/layout_margin_left_start"
+            android:layout_alignTop="@+id/txt_maiden_name"
+            android:layout_marginTop="@dimen/text_view_margin_top"
+            android:text="@string/ensure_number_provided"
+            android:textSize="25sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@id/lbl_home_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/layout_margin_left_start"
+            android:layout_marginStart="@dimen/layout_margin_left_start"
+            android:layout_alignTop="@+id/lbl_ensure_number_provided"
+            android:layout_marginTop="@dimen/text_view_margin_top"
+            android:text="@string/your_home_number"
+            android:textSize="@dimen/text_view_size" />
+
+        <EditText
+            android:id="@id/txt_home_number"
+            android:layout_width="@dimen/layout_edit_text_width"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/layout_margin_left_start"
+            android:layout_marginStart="@dimen/layout_margin_left_start"
+            android:layout_alignTop="@+id/lbl_home_number"
+            android:layout_marginTop="@dimen/edit_view_margin_top"
+            android:inputType="phone"
+            android:textSize="@dimen/edit_text_size"/>
+
+        <TextView
+            android:id="@id/lbl_work_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/layout_margin_left_start"
+            android:layout_marginStart="@dimen/layout_margin_left_start"
+            android:layout_alignTop="@+id/txt_home_number"
+            android:layout_marginTop="@dimen/text_view_margin_top"
+            android:text="@string/your_work_number"
+            android:textSize="@dimen/text_view_size"/>
+
+        <EditText
+            android:id="@id/txt_work_number"
+            android:layout_width="@dimen/layout_edit_text_width"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/layout_margin_left_start"
+            android:layout_marginStart="@dimen/layout_margin_left_start"
+            android:layout_alignTop="@+id/lbl_work_number"
+            android:layout_marginTop="@dimen/edit_view_margin_top"
+            android:inputType="phone"
+            android:textSize="@dimen/edit_text_size"/>
+
+        <TextView
+            android:id="@id/lbl_cell_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/layout_margin_left_start"
+            android:layout_marginStart="@dimen/layout_margin_left_start"
+            android:layout_alignTop="@+id/txt_work_number"
+            android:layout_marginTop="@dimen/text_view_margin_top"
+            android:text="@string/your_cell_number"
+            android:textSize="@dimen/text_view_size"/>
+
+
+        <EditText
+            android:id="@id/txt_cell_number"
+            android:layout_width="@dimen/layout_edit_text_width"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/layout_margin_left_start"
+            android:layout_marginStart="@dimen/layout_margin_left_start"
+            android:layout_alignTop="@+id/lbl_cell_number"
+            android:layout_marginTop="@dimen/edit_view_margin_top"
+            android:inputType="phone"
+            android:textSize="@dimen/edit_text_size"/>
+
+        <TextView
+            android:id="@id/lbl_country"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/layout_margin_left_start"
+            android:layout_marginStart="@dimen/layout_margin_left_start"
+            android:layout_alignTop="@+id/txt_cell_number"
+            android:layout_marginTop="@dimen/text_view_margin_top"
+            android:text="@string/your_country"
+            android:textSize="@dimen/text_view_size"/>
+
+        <EditText
+            android:id="@id/txt_country"
+            android:layout_width="@dimen/layout_edit_text_width"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/layout_margin_left_start"
+            android:layout_marginStart="@dimen/layout_margin_left_start"
+            android:layout_alignTop="@+id/lbl_country"
+            android:layout_marginTop="@dimen/edit_view_margin_top"
+            android:textSize="@dimen/edit_text_size"/>
+
+        <TextView
+            android:id="@id/lbl_where_about_us"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/layout_margin_left_start"
+            android:layout_marginStart="@dimen/layout_margin_left_start"
+            android:layout_alignTop="@+id/txt_country"
+            android:layout_marginTop="@dimen/text_view_margin_top"
+            android:text="@string/about_us"
+            android:textSize="@dimen/text_view_size"/>
+
+        <EditText
+            android:id="@id/txt_where_about_us"
+            android:layout_width="@dimen/layout_edit_text_width"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/layout_margin_left_start"
+            android:layout_marginStart="@dimen/layout_margin_left_start"
+            android:layout_alignTop="@+id/lbl_where_about_us"
+            android:layout_marginTop="@dimen/edit_view_margin_top"
+            android:textSize="@dimen/edit_text_size"/>
+
+        <Button
+            android:id="@id/btn_submit"
+            android:layout_width="@dimen/menu_layout_width"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textSize="45sp"
+            android:gravity="center"
+            android:layout_alignTop="@+id/txt_where_about_us"
+            android:layout_marginTop="@dimen/text_view_margin_top"
+            android:layout_marginBottom="@dimen/layout_margin_top_bottom"
+            android:text="@string/submit"/>
+
+    </RelativeLayout>
+
+</ScrollView>
