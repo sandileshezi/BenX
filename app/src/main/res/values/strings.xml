@@ -3,7 +3,7 @@
     <string name="user_name">Email Address</string>
     <string name="password">Password</string>
     <string name="login">Login</string>
-    <string name="forgot_password">Forgot Password</string>
+    <string name="forgot_password">Forgot Password?</string>
     <string name="contacts">Contacts</string>
     <string name="logout">Logout</string>
     <string name="search">Search</string>
@@ -33,7 +33,5 @@
     <string name="your_country">Your country of residence</string>
     <string name="about_us">Where did you hear about us?</string>
     <string name="submit">Submit</string>
-    <string name="after_submission">Once you have submitted the personal details, we will search our existing unclaimed benefit database and email you the results of the search within 72 hours. In addition we will retain your details and check against all new unclaimed benefit records received in future.</string>
-    <string name="dob_hint">DOB</string>
     <string name="ensure_number_provided">Please ensure at least one contact number is provided.</string>
 </resources>

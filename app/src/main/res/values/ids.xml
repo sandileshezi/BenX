@@ -28,7 +28,7 @@
     <item type="id" name="lbl_email"/>
     <item type="id" name="txt_email"/>
     <item type="id" name="lbl_gender"/>
-    <item type="id" name="txt_gender"/>
+    <item type="id" name="sp_gender"/>
     <item type="id" name="lbl_maiden_name"/>
     <item type="id" name="txt_maiden_name"/>
     <item type="id" name="lbl_ensure_number_provided"/>

@@ -92,7 +92,5 @@
             android:textSize="@dimen/menu_buttons_text_size"
             android:gravity="left|center_vertical"/>
 
-
     </RelativeLayout>
-
 </ScrollView>

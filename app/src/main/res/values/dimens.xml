@@ -10,6 +10,7 @@
     <dimen name="text_view_size">25sp</dimen>
     <dimen name="text_view_margin_top">80dp</dimen>
     <dimen name="edit_view_margin_top">25dp</dimen>
+    <dimen name="spinner_view_margin_top">40dp</dimen>
     <dimen name="layout_margin_left_start">47dp</dimen>
     <dimen name="layout_edit_text_width">500dp</dimen>
     <dimen name="layout_margin_top_bottom">10dp</dimen>
@@ -17,4 +18,9 @@
     <dimen name="layout_contact_logout_text_size">25sp</dimen>
     <dimen name="layout_header_text_size">30sp</dimen>
     <dimen name="layout_header_text_margin_top">16dp</dimen>
+
+    <dimen name="default_40dp">40dp</dimen>
+    <dimen name="default_16dp">16dp</dimen>
+    <dimen name="default_205dp">205dp</dimen>
+    <dimen name="default_142dp">142dp</dimen>
 </resources>

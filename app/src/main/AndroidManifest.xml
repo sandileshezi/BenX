@@ -21,6 +21,7 @@
         <activity android:name=".ReportsActivity" android:parentActivityName=".MainActivity"></activity>
         <activity android:name=".HistoryActivity" android:parentActivityName=".MainActivity"></activity>
         <activity android:name=".RegisterActivity" android:parentActivityName=".SearchActivity"></activity>
+        <activity android:name=".SplashScreenActivity"></activity>
     </application>
 
 </manifest>

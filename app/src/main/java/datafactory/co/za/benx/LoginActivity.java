@@ -15,7 +15,7 @@ public class LoginActivity extends AppCompatActivity {
 
     public void onButtonClick(View v){
         if(v.getId() == R.id.btn_login){
-            Intent i = new Intent(LoginActivity.this, MainActivity.class);
+            Intent i = new Intent(LoginActivity.this, SplashScreenActivity.class);
             startActivity(i);
         }
     }

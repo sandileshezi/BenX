@@ -63,4 +63,13 @@
         android:layout_marginTop="@dimen/menu_buttons_layout_margin_top"
         android:text="@string/third_party" />
 
+    <ImageView
+        android:layout_width="@dimen/default_205dp"
+        android:layout_height="@dimen/default_142dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="@dimen/default_16dp"
+        android:layout_marginRight="@dimen/default_16dp"
+        android:src="@drawable/benx_logo"/>
+
 </RelativeLayout>
