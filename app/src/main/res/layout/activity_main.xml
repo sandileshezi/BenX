@@ -46,51 +46,75 @@
         <Button
             android:id="@+id/btn_search"
             android:layout_width="@dimen/menu_layout_long_button_width"
-            android:layout_height="wrap_content"
+            android:layout_height="@dimen/default_78dp"
             android:text="@string/search"
             android:textSize="@dimen/menu_buttons_text_size"
             android:layout_below="@+id/btn_contacts"
             android:layout_marginTop="@dimen/menu_buttons_layout_margin_top"
             android:layout_alignLeft="@+id/btn_contacts"
             android:layout_alignStart="@+id/btn_contacts"
-            android:gravity="left|center_vertical"/>
+            android:background="@drawable/button_bg_rounded_corners"
+            android:textColor="@color/white"
+            android:shadowColor="@color/black"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="3"
+            android:gravity="center"/>
 
         <Button
             android:id="@+id/btn_history"
             android:layout_width="@dimen/menu_layout_long_button_width"
-            android:layout_height="wrap_content"
+            android:layout_height="@dimen/default_78dp"
             android:layout_alignLeft="@+id/btn_search"
             android:layout_alignStart="@+id/btn_search"
             android:layout_centerVertical="true"
             android:layout_below="@+id/btn_search"
             android:text="@string/history"
             android:textSize="@dimen/menu_buttons_text_size"
-            android:gravity="left|center_vertical"
-            android:layout_marginTop="@dimen/menu_buttons_layout_margin_top"/>
+            android:layout_marginTop="@dimen/menu_buttons_layout_margin_top"
+            android:background="@drawable/button_bg_rounded_corners"
+            android:textColor="@color/white"
+            android:shadowColor="@color/black"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="3"
+            android:gravity="center"/>
 
         <Button
             android:id="@+id/btn_reports"
             android:layout_width="@dimen/menu_layout_long_button_width"
-            android:layout_height="wrap_content"
+            android:layout_height="@dimen/default_78dp"
             android:layout_alignLeft="@+id/btn_history"
             android:layout_alignStart="@+id/btn_history"
             android:layout_below="@+id/btn_history"
             android:text="@string/reports"
             android:textSize="@dimen/menu_buttons_text_size"
-            android:gravity="left|center_vertical"
-            android:layout_marginTop="@dimen/menu_buttons_layout_margin_top"/>
+            android:layout_marginTop="@dimen/menu_buttons_layout_margin_top"
+            android:background="@drawable/button_bg_rounded_corners"
+            android:textColor="@color/white"
+            android:shadowColor="@color/black"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="3"
+            android:gravity="center"/>
 
         <Button
             android:id="@+id/btn_other"
             android:layout_width="@dimen/menu_layout_long_button_width"
-            android:layout_height="wrap_content"
+            android:layout_height="@dimen/default_78dp"
             android:layout_alignLeft="@+id/btn_reports"
             android:layout_alignStart="@+id/btn_reports"
             android:layout_below="@+id/btn_reports"
             android:layout_marginTop="@dimen/menu_buttons_layout_margin_top"
             android:text="@string/other"
             android:textSize="@dimen/menu_buttons_text_size"
-            android:gravity="left|center_vertical"/>
+            android:background="@drawable/button_bg_rounded_corners"
+            android:textColor="@color/white"
+            android:shadowColor="@color/black"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="3"
+            android:gravity="center"/>
 
     </RelativeLayout>
 </ScrollView>
