@@ -18,10 +18,15 @@
     <dimen name="layout_contact_logout_text_size">25sp</dimen>
     <dimen name="layout_header_text_size">30sp</dimen>
     <dimen name="layout_header_text_margin_top">16dp</dimen>
-
     <dimen name="default_40dp">40dp</dimen>
+    <dimen name="default_45dp">16dp</dimen>
     <dimen name="default_16dp">16dp</dimen>
     <dimen name="default_205dp">205dp</dimen>
     <dimen name="default_142dp">142dp</dimen>
     <dimen name="default_78dp">93dp</dimen>
+    <dimen name="default_85dp">85dp</dimen>
+    <dimen name="default_465dp">465dp</dimen>
+    <dimen name="default_458dp">458dp</dimen>
+    <dimen name="default_255dp">225dp</dimen>
+    <dimen name="default_163dp">163dp</dimen>
 </resources>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<!--ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"-->
 
-    <RelativeLayout
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
@@ -12,14 +12,14 @@
             style="@style/Widget.AppCompat.Button.Borderless"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
             android:layout_marginLeft="@dimen/layout_margin_left_start"
             android:layout_marginStart="@dimen/layout_margin_left_start"
             android:layout_marginTop="68dp"
             android:text="@string/contacts"
-            android:textSize="@dimen/layout_contact_logout_text_size"
-            android:layout_alignParentTop="true"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true" />
+            android:textSize="@dimen/layout_contact_logout_text_size" />
 
         <TextView
             android:id="@+id/textView2"
@@ -28,38 +28,39 @@
             android:layout_centerHorizontal="true"
             android:layout_marginTop="@dimen/layout_header_text_margin_top"
             android:text="@string/menu"
-            android:textSize="@dimen/layout_header_text_size"/>
+            android:textSize="@dimen/layout_header_text_size" />
 
         <Button
             android:id="@id/btn_logout"
             style="@style/Widget.AppCompat.Button.Borderless"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_above="@+id/btn_search"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
             android:layout_marginEnd="44dp"
             android:layout_marginRight="44dp"
             android:text="@string/logout"
-            android:textSize="@dimen/layout_contact_logout_text_size"
-            android:layout_above="@+id/btn_search"
-            android:layout_alignParentRight="true"
-            android:layout_alignParentEnd="true" />
+            android:textSize="@dimen/layout_contact_logout_text_size" />
 
         <Button
             android:id="@+id/btn_search"
             android:layout_width="@dimen/menu_layout_long_button_width"
             android:layout_height="@dimen/default_78dp"
-            android:text="@string/search"
-            android:textSize="@dimen/menu_buttons_text_size"
-            android:layout_below="@+id/btn_contacts"
-            android:layout_marginTop="@dimen/menu_buttons_layout_margin_top"
             android:layout_alignLeft="@+id/btn_contacts"
             android:layout_alignStart="@+id/btn_contacts"
+            android:layout_below="@+id/btn_contacts"
+            android:layout_marginTop="85dp"
             android:background="@drawable/button_bg_rounded_corners"
-            android:textColor="@color/white"
+            android:gravity="center"
             android:shadowColor="@color/black"
             android:shadowDx="1"
             android:shadowDy="1"
             android:shadowRadius="3"
-            android:gravity="center"/>
+            android:text="@string/search"
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+            android:textSize="@dimen/menu_buttons_text_size" />
 
         <Button
             android:id="@+id/btn_history"
@@ -67,18 +68,19 @@
             android:layout_height="@dimen/default_78dp"
             android:layout_alignLeft="@+id/btn_search"
             android:layout_alignStart="@+id/btn_search"
-            android:layout_centerVertical="true"
             android:layout_below="@+id/btn_search"
-            android:text="@string/history"
-            android:textSize="@dimen/menu_buttons_text_size"
+            android:layout_centerVertical="true"
             android:layout_marginTop="@dimen/menu_buttons_layout_margin_top"
             android:background="@drawable/button_bg_rounded_corners"
-            android:textColor="@color/white"
+            android:gravity="center"
             android:shadowColor="@color/black"
             android:shadowDx="1"
             android:shadowDy="1"
             android:shadowRadius="3"
-            android:gravity="center"/>
+            android:text="@string/history"
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+            android:textSize="@dimen/menu_buttons_text_size" />
 
         <Button
             android:id="@+id/btn_reports"
@@ -87,16 +89,17 @@
             android:layout_alignLeft="@+id/btn_history"
             android:layout_alignStart="@+id/btn_history"
             android:layout_below="@+id/btn_history"
-            android:text="@string/reports"
-            android:textSize="@dimen/menu_buttons_text_size"
             android:layout_marginTop="@dimen/menu_buttons_layout_margin_top"
             android:background="@drawable/button_bg_rounded_corners"
-            android:textColor="@color/white"
+            android:gravity="center"
             android:shadowColor="@color/black"
             android:shadowDx="1"
             android:shadowDy="1"
             android:shadowRadius="3"
-            android:gravity="center"/>
+            android:text="@string/reports"
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+            android:textSize="@dimen/menu_buttons_text_size" />
 
         <Button
             android:id="@+id/btn_other"
@@ -106,15 +109,34 @@
             android:layout_alignStart="@+id/btn_reports"
             android:layout_below="@+id/btn_reports"
             android:layout_marginTop="@dimen/menu_buttons_layout_margin_top"
-            android:text="@string/other"
-            android:textSize="@dimen/menu_buttons_text_size"
             android:background="@drawable/button_bg_rounded_corners"
-            android:textColor="@color/white"
+            android:gravity="center"
             android:shadowColor="@color/black"
             android:shadowDx="1"
             android:shadowDy="1"
             android:shadowRadius="3"
-            android:gravity="center"/>
+            android:text="@string/other"
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+            android:textSize="@dimen/menu_buttons_text_size" />
+
+        <ImageView
+            android:layout_width="@dimen/default_255dp"
+            android:layout_height="@dimen/default_163dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="@dimen/default_16dp"
+            android:layout_marginRight="@dimen/default_45dp"
+            android:src="@drawable/unclaimed_logo" />
+
+        <ImageView
+            android:layout_width="@dimen/default_255dp"
+            android:layout_height="@dimen/default_163dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="false"
+            android:layout_marginBottom="@dimen/default_16dp"
+            android:layout_marginLeft="@dimen/default_45dp"
+            android:src="@drawable/benx_logo" />
 
     </RelativeLayout>
-</ScrollView>
+<!--/ScrollView-->

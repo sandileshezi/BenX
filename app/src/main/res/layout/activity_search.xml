@@ -46,7 +46,7 @@
         android:layout_alignLeft="@+id/btn_contacts"
         android:layout_alignStart="@+id/btn_contacts"
         android:layout_below="@+id/btn_contacts"
-        android:layout_marginTop="@dimen/menu_buttons_layout_margin_top"
+        android:layout_marginTop="@dimen/default_85dp"
         android:text="@string/own"
         android:textSize="@dimen/menu_buttons_long_text_size"
         android:background="@drawable/button_bg_rounded_corners"
@@ -55,6 +55,7 @@
         android:shadowDx="1"
         android:shadowDy="1"
         android:shadowRadius="3"
+        android:textAllCaps="false"
         android:gravity="center"/>
 
     <Button
@@ -73,15 +74,24 @@
         android:shadowDx="1"
         android:shadowDy="1"
         android:shadowRadius="3"
+        android:textAllCaps="false"
         android:gravity="center"/>
 
     <ImageView
-        android:layout_width="@dimen/default_205dp"
-        android:layout_height="@dimen/default_142dp"
+        android:layout_width="@dimen/default_255dp"
+        android:layout_height="@dimen/default_163dp"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
         android:layout_marginBottom="@dimen/default_16dp"
-        android:layout_marginRight="@dimen/default_16dp"
-        android:src="@drawable/benx_logo"/>
+        android:layout_marginRight="@dimen/default_45dp"
+        android:src="@drawable/unclaimed_logo" />
 
+    <ImageView
+        android:layout_width="@dimen/default_255dp"
+        android:layout_height="@dimen/default_163dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="false"
+        android:layout_marginBottom="@dimen/default_16dp"
+        android:layout_marginLeft="@dimen/default_45dp"
+        android:src="@drawable/benx_logo" />
 </RelativeLayout>

@@ -43,4 +43,5 @@
     <item type="id" name="lbl_where_about_us"/>
     <item type="id" name="txt_where_about_us"/>
     <item type="id" name="btn_submit"/>
+    <item type="id" name="parent"/>
 </resources>
